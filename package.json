@@ -10,8 +10,8 @@
     "jwt": "better-npm-run jwt"
   },
   "betterScripts": {
-    "start": {
-      "command": "nodemon jwt/server",
+    "jwt": {
+      "command": "nodemon jwtServer/server",
       "env": {
         "DEBUG": "app:*"
       }
