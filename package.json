@@ -7,11 +7,11 @@
     "npm": "^3.10.0"
   },
   "scripts": {
-    "start": "better-npm-run start"
+    "jwt": "better-npm-run jwt"
   },
   "betterScripts": {
     "start": {
-      "command": "node src/server",
+      "command": "nodemon jwt/server",
       "env": {
         "DEBUG": "app:*"
       }
