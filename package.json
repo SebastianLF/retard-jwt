@@ -1,0 +1,37 @@
+{
+  "name": "retard-jwt",
+  "version": "0.1.0",
+  "main": "src/main.js",
+  "engines": {
+    "node": "^6.9.0",
+    "npm": "^3.10.0"
+  },
+  "scripts": {
+    "start": "better-npm-run start"
+  },
+  "betterScripts": {
+    "start": {
+      "command": "node src/server",
+      "env": {
+        "DEBUG": "app:*"
+      }
+    }
+  },
+  "author": "zelol",
+  "contributors": [
+    "zelol",
+    "programGitHub"
+  ],
+  "license": "MIT",
+  "repository": "https://github.com/zelol/retard-jwt",
+  "devDependencies": {
+    "better-npm-run": "0.0.13",
+    "body-parser": "^1.15.2",
+    "colors": "^1.1.2",
+    "cors": "^2.8.1",
+    "debug": "^2.3.3",
+    "express": "^4.14.0",
+    "jsonwebtoken": "^7.2.1",
+    "nodemon": "^1.11.0"
+  }
+}
