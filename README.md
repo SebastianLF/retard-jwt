@@ -8,3 +8,6 @@ Syntaxic sugar for jwt authentication both front and back.
 
 ## Usage
   var rjwt = require('retard-jwt');
+
+## Test
+  `npm test`
